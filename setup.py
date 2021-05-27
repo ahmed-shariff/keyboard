@@ -23,7 +23,7 @@ setup(
     long_description=keyboard.__doc__.replace('\r\n', '\n'),
     long_description_content_type='text/markdown',
 
-    install_requires=["pyobjc; sys_platform=='darwin'"], # OSX-specific dependency
+    # install_requires=["pyobjc; sys_platform=='darwin'"], # OSX-specific dependency
     classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
